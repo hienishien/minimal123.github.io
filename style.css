@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/** base config **/
+@font-face{
+    font-family: "Bebas-Neue";
+    src: url(font/BebasNeue-Regular.otf);
+}
+@font-face{
+    font-family: "Helvetical";
+    src: url(font/Helvetica.ttf);
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/** header **/
+#header{
+    width: 100%;
+}
+
+#header h1{
+    font-family: "Bebas-Neue";
+    float: left;
+    line-height: 108px;    
+    font-size: 36.5px; 
+}
+#header p{
+    font-family: "Arial";
+    font-size: 14.5px;
+    float: left;
+    margin-top: -38px;
+}
+#header ul{
+    float: right;
+    line-height: 108px;
+}
+
+#header ul li{
+    display: inline;
+    padding: 0 21px;
+}
+
+#header ul li a{
+    font-family: "Helvetical";
+    font-size: 16.5px;
+    color: #404040;
+}
+
+#header ul li a:hover{
+    background-color: #d45e5e;
+    color: white;
+    height:51px; 
+}
